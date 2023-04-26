@@ -1,0 +1,26 @@
+1st Layer 2048:
+2nd Layer 1024:
+3rd Layer 512:
+4th Layer 256:
+
+									loss: 0.0038 - accuracy: 1.0000 - val_loss: 2.9015 - val_accuracy: 0.5587						# All Layer PReLU ()
+
+	
+	1st Layer Dropout 40%:
+	2nd Layer Dropout 30%:
+	3rd Layer Dropout 20%:
+	4th Layer Dropout 20%:			
+															loss: 0.3890 - accuracy: 0.8701 - val_loss: 1.7380 - val_accuracy: 0.5795
+
+
+
+
+
+				loss: 0.4212 - accuracy: 0.8574 - val_loss: 0.5458 - val_accuracy: 0.8292                                      # Shuffle = True
+				loss: 0.3946 - accuracy: 0.8674 - val_loss: 1.7479 - val_accuracy: 0.5725                                      # Shuffle = False, Batch Size = 256
+				loss: 0.5931 - accuracy: 0.8007 - val_loss: 1.5873 - val_accuracy: 0.5828                                      # Batch Size = 512
+				loss: 0.2488 - accuracy: 0.9162 - val_loss: 2.2704 - val_accuracy: 0.5705                                      # Batch Size = 128
+				loss: 0.5800 - accuracy: 0.8046 - val_loss: 1.6121 - val_accuracy: 0.5677                                      # Normalization = Standard
+				
+				loss: 0.0118 - accuracy: 0.9964 - val_loss: 0.5585 - val_accuracy: 0.9018																			 # 1000 Epochs
+															
